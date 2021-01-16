@@ -1,0 +1,32 @@
+:root
+
+body{
+    background: #E5E5E5;
+    color: #212121;
+}
+/* стилизаця лого */
+.logo{
+    color: #000000;
+}
+.logo-web-color{
+    color: #2196F3;
+}
+/* убираем все точки при списках */
+ul{
+    list-style: none;
+}
+/* оформляем стилязацию по навигации сайта */
+.nav-web .link{
+    color: #212121;
+}
+.nav-web .link:hover,
+.nav-web .link:focus{
+    color: #2196F3;
+} 
+.nav-tel-mail a{
+    color: #757575;
+}
+.nav-tel-mail a:hover,
+.nav-tel-mail a:focus{
+    color: #2196F3;
+}
