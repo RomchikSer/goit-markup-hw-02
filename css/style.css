@@ -12,6 +12,7 @@ body{
 /* стилизаця лого */
 .logo{
     color: #000000;
+    font-family: raleway, sans-serif;
 }
 .logo-web-color{
     color: var(--focus-text-color);
