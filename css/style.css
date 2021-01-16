@@ -1,15 +1,19 @@
-:root
+:root {
+    --web-text-color:#212121;
+    --focus-text-color: #2196F3;
+    --tel-mail-text-color:#757575;
+}
 
 body{
     background: #E5E5E5;
-    color: #212121;
+    color: var(--web-text-color);
 }
 /* стилизаця лого */
 .logo{
     color: #000000;
 }
 .logo-web-color{
-    color: #2196F3;
+    color: var(--focus-text-color);
 }
 /* убираем все точки при списках */
 ul{
@@ -17,16 +21,16 @@ ul{
 }
 /* оформляем стилязацию по навигации сайта */
 .nav-web .link{
-    color: #212121;
+    color: var(--web-text-color);
 }
 .nav-web .link:hover,
 .nav-web .link:focus{
-    color: #2196F3;
+    color:var(--focus-text-color);
 } 
 .nav-tel-mail a{
-    color: #757575;
+    color: var(--tel-mail-text-color);
 }
 .nav-tel-mail a:hover,
 .nav-tel-mail a:focus{
-    color: #2196F3;
+    color: var(--focus-text-color);
 }
