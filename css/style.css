@@ -7,15 +7,24 @@
 body{
     background: #E5E5E5;
     color: var(--web-text-color);
+    letter-spacing: 0.03em;
     font-family: Roboto, sans-serif;
 }
 /* стилизаця лого */
 .logo{
     color: #000000;
     font-family: raleway, sans-serif;
+    font-size:26px ;
+    line-height: 30,52px;
+    
 }
 .logo-web-color{
     color: var(--focus-text-color);
+    font-family: oleo script, sans-serif;
+    font-size: 26px;
+    line-height: 30,52px;
+    
+
 }
 /* убираем все точки при списках */
 ul{
@@ -24,6 +33,9 @@ ul{
 /* оформляем стилязацию по навигации сайта */
 .nav-web .link{
     color: var(--web-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
 }
 .nav-web .link:hover,
 .nav-web .link:focus{
@@ -31,6 +43,9 @@ ul{
 } 
 .nav-tel-mail a{
     color: var(--tel-mail-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
 }
 .nav-tel-mail a:hover,
 .nav-tel-mail a:focus{
