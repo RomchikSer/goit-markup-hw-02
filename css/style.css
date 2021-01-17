@@ -4,6 +4,7 @@
     --tel-mail-text-color:#757575;
     --secondary-text-color:#ffffff;
     --over-text-color: #000000;
+    --color-text-footer: #ffffff,0.6
 }
 
 body{
@@ -66,11 +67,13 @@ ul{
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
+    letter-spacing: 0.06em;
     text-align: center;
 }
 .hero-bt{
     background-color: var(--focus-text-color);
     color: var(--secondary-text-color);
+    letter-spacing: 0.06em;
 }
 /* особености */
 .uniqum .uniqum-title{
@@ -107,3 +110,55 @@ line-height: 1.18;
     font-size: 16px;
     line-height: 1.18;
 }
+/* main */
+.main-bt{
+    color: var(--web-text-color);
+
+}
+.main-bt button:hover,
+.main-bt button:focus{
+    background-color: var(--focus-text-color);
+   color: var(--secondary-text-color);
+}
+.main-list-title{
+    color: var(--web-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.main-list-theam{
+    color: var(--tel-mail-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+}
+
+/* footer */
+.footer-main{
+    background: #2F303A;
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 2097px;
+}
+.logo-color{
+    color: var(--secondary-text-color);
+
+}
+.address .nav-map{
+    color: var(--secondary-text-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+.address .nav-address{
+    color:var(--color-text-footer);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+.nav-address a:hover,
+.nav-address a:focus{
+    color: var(--focus-text-color);
+
