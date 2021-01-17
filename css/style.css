@@ -11,7 +11,7 @@
     --letter-spacing:  0.03em;
 }
 
-body{
+body {
     color: var(--web-text-color);
     letter-spacing: var(--letter-spacing);
     font-family: Roboto, sans-serif;
@@ -19,10 +19,10 @@ body{
     font-weight: 700;
 }
 /* убираем все точки при списках */
-ul{
+ul {
     list-style: none;
 }
-a{
+a {
     text-decoration: none;
 }
 button {
@@ -39,7 +39,7 @@ button {
 .logo-studio:focus{
     color: var(--focus-text-color);
 }
-.logo-web-color{
+.logo-web-color {
     color: var(--focus-text-color);
 }
 
@@ -55,14 +55,14 @@ button {
   }
 
 /* оформляем стилязацию по навигации сайта */
-.nav-web .link{
+.nav-web .link {
     color: var(--web-text-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
 }
 .nav-web .link:hover,
-.nav-web .link:focus{
+.nav-web .link:focus {
     color:var(--focus-text-color);
 } 
 .header-contacts-link {
@@ -155,6 +155,7 @@ line-height: 1.18;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
 }
+/* portfolio */
 .main-list-title {
     color: var(--web-text-color);
     font-weight: 700;
