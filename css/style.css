@@ -2,17 +2,19 @@
     --web-text-color:#212121;
     --focus-text-color: #2196F3;
     --tel-mail-text-color:#757575;
+    --secondary-text-color:#ffffff;
+    --over-text-color: #000000;
 }
 
 body{
     background: #E5E5E5;
     color: var(--web-text-color);
     letter-spacing: 0.03em;
-    font-family: Roboto, sans-serif;
+    font-family: Roboto, raleway, oleo script, sans-serif;
 }
 /* стилизаця лого */
 .logo{
-    color: #000000;
+    color: var(--over-text-color);
     font-family: raleway, sans-serif;
     font-size:26px ;
     line-height: 30,52px;
@@ -52,4 +54,43 @@ ul{
     color: var(--focus-text-color);
 }
 /* hero */
-.hero{}
+.hero{
+    background-color: #2F303A;
+    width: 1600px;
+    height: 600px;
+    left: 233px;
+    top: 74px;
+}
+.hero-title{
+    color:var(--secondary-text-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+}
+.hero-bt{
+    background-color: var(--focus-text-color);
+    color: var(--secondary-text-color);
+}
+/* особености */
+.uniqum .uniqum-title{
+    color: var(--web-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+}
+.uniqum-list{
+    color: var(--tel-mail-text-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+}
+/* work */
+.work .work-title{
+    color: var(--web-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+/* team */
