@@ -69,6 +69,10 @@ button {
 } 
 .nav-link-current {
     color: var(--focus-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
 }
 
 .header-contacts-link {
@@ -85,7 +89,10 @@ button {
 /* hero */
 .hero {
     background-color:var(--color-bag-hero);
-    
+    width: 1600px;
+    height: 600px;
+    left: 233px;
+    top: 74px;
 }
 .hero-title {
     color:var(--secondary-text-color);
@@ -94,7 +101,6 @@ button {
     line-height: 1.36;
     letter-spacing:var(--letter-spacing-priority);
     text-align: center;
-    text-transform: uppercase;
 }
 .hero-bt {
     background-color: var(--focus-text-color);
