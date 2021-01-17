@@ -4,35 +4,45 @@
     --tel-mail-text-color:#757575;
     --secondary-text-color:#ffffff;
     --over-text-color: #000000;
-    --color-text-footer: #ffffff,0.6
+    --color-text-footer: color: rgba(255, 255, 255, 0.6);
+    --color-hero-button: #188CE8;
+    --color-bag-hero: #2F303A;
+    --secondary-background-color: #f5f4fa;
 }
 
 body{
-    background: #E5E5E5;
     color: var(--web-text-color);
     letter-spacing: 0.03em;
     font-family: Roboto, sans-serif;
-}
-/* стилизаця лого */
-.logo{
-    color: var(--over-text-color);
-    font-family: raleway, sans-serif;
-    font-size:26px ;
-    line-height: 30,52px;
-    
-}
-.logo-web-color{
-    color: var(--focus-text-color);
-    font-family: oleo script, sans-serif;
-    font-size: 26px;
-    line-height: 30,52px;
-    
-
+    font-style: normal;
 }
 /* убираем все точки при списках */
 ul{
     list-style: none;
 }
+a{
+    text-decoration: none;
+}
+button {
+  font-family: inherit;
+}
+/* стилизаця лого */
+.logo-studio {
+    color: var(--over-text-color);
+    font-family: raleway, sans-serif;
+    font-size:26px ;
+    line-height: 1.17;
+    
+}
+.logo-studio:focus{
+    color: var(--focus-text-color);
+}
+.logo-web-color{
+    color: var(--focus-text-color);
+    
+
+}
+
 /* оформляем стилязацию по навигации сайта */
 .nav-web .link{
     color: var(--web-text-color);
@@ -54,9 +64,12 @@ ul{
 .nav-tel-mail a:focus{
     color: var(--focus-text-color);
 }
+.link-current {
+color: var(--focus-text-color);
+}
 /* hero */
 .hero{
-    background-color: #2F303A;
+    background-color:var(--color-bag-hero);
     width: 1600px;
     height: 600px;
     left: 233px;
@@ -74,6 +87,12 @@ ul{
     background-color: var(--focus-text-color);
     color: var(--secondary-text-color);
     letter-spacing: 0.06em;
+}
+.hero-bt:focus,
+.hero-bt:hover{
+    background: var(--color-hero-button);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 }
 /* особености */
 .uniqum .uniqum-title{
@@ -112,13 +131,18 @@ line-height: 1.18;
 }
 /* main */
 .main-bt{
+    background: var(--secondary-background-color);
     color: var(--web-text-color);
-
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
 }
-.main-bt button:hover,
-.main-bt button:focus{
-    background-color: var(--focus-text-color);
-   color: var(--secondary-text-color);
+.main-bt:hover,
+.main-bt:focus{
+    background: var(--focus-text-color);
+    color: var(--secondary-text-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
 }
 .main-list-title{
     color: var(--web-text-color);
@@ -135,30 +159,32 @@ line-height: 1.18;
 }
 
 /* footer */
-.footer-main{
-    background: #2F303A;
+.footer {
+    background-color:var(--color-bag-hero);
     width: 1600px;
     height: 252px;
     left: 0px;
     top: 2097px;
 }
-.logo-color{
+.footer .logo-studio {
     color: var(--secondary-text-color);
 
 }
-.address .nav-map{
+
+/* .nav-address{
+    color:var(--color-text-footer);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71; */
+}
+.map-link{
     color: var(--secondary-text-color);
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
 }
-.address .nav-address{
-    color:var(--color-text-footer);
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-}
-.nav-address a:hover,
-.nav-address a:focus{
+
+.nav-address:hover,
+.nav-address:focus{
     color: var(--focus-text-color);
 
