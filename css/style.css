@@ -41,9 +41,18 @@ button {
 }
 .logo-web-color{
     color: var(--focus-text-color);
-    
-
 }
+
+.visually-hidden {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+  }
 
 /* оформляем стилязацию по навигации сайта */
 .nav-web .link{
@@ -56,28 +65,28 @@ button {
 .nav-web .link:focus{
     color:var(--focus-text-color);
 } 
-.nav-tel-mail a{
+.header-contacts-link {
     color: var(--tel-mail-text-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
 }
-.nav-tel-mail a:hover,
-.nav-tel-mail a:focus{
+.header-contacts-link:hover,
+.header-contacts-link:focus {
     color: var(--focus-text-color);
 }
 .link-current {
 color: var(--focus-text-color);
 }
 /* hero */
-.hero{
+.hero {
     background-color:var(--color-bag-hero);
     width: 1600px;
     height: 600px;
     left: 233px;
     top: 74px;
 }
-.hero-title{
+.hero-title {
     color:var(--secondary-text-color);
     font-weight: 900;
     font-size: 44px;
@@ -85,25 +94,25 @@ color: var(--focus-text-color);
     letter-spacing: 0.06em;
     text-align: center;
 }
-.hero-bt{
+.hero-bt {
     background-color: var(--focus-text-color);
     color: var(--secondary-text-color);
     letter-spacing: 0.06em;
 }
 .hero-bt:focus,
-.hero-bt:hover{
+.hero-bt:hover {
     background: var(--color-hero-button);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
 /* особености */
-.uniqum .uniqum-title{
+.uniqum .uniqum-title {
     color: var(--web-text-color);
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
 }
-.uniqum-list{
+.uniqum-list {
     color: var(--tel-mail-text-color);
     font-weight: 400;
     font-size: 14px;
@@ -111,7 +120,7 @@ color: var(--focus-text-color);
 }
 /* work */
 .work .title
-.team .title{
+.team .title {
     color: var(--web-text-color);
     font-weight: 700;
     font-size: 36px;
@@ -119,20 +128,20 @@ color: var(--focus-text-color);
     text-align: center;
 }
 /* team */
-.team-name{
+.team-name {
 color: var(--web-text-color);
 font-weight: 500;
 font-size: 16px;
 line-height: 1.18;
 }
-.team-work{
+.team-work {
     color: var(--tel-mail-text-color);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
 }
 /* main */
-.main-bt{
+.main-bt {
     background: var(--secondary-background-color);
     color: var(--web-text-color);
     font-weight: 500;
@@ -140,20 +149,20 @@ line-height: 1.18;
     line-height: 1.62;
 }
 .main-bt:hover,
-.main-bt:focus{
+.main-bt:focus {
     background: var(--focus-text-color);
     color: var(--secondary-text-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
 }
-.main-list-title{
+.main-list-title {
     color: var(--web-text-color);
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
 }
-.main-list-theam{
+.main-list-theam {
     color: var(--tel-mail-text-color);
     font-weight: 400;
     font-size: 16px;
@@ -180,7 +189,7 @@ line-height: 1.18;
     font-style: normal;
 }
 .map-link:hover,
-.map-link:focus{
+.map-link:focus {
     color: var(--focus-text-color);
 }
 
