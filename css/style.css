@@ -8,13 +8,15 @@
     --color-hero-button: #188CE8;
     --color-bag-hero: #2F303A;
     --secondary-background-color: #f5f4fa;
+    --letter-spacing:  0.03em;
 }
 
 body{
     color: var(--web-text-color);
-    letter-spacing: 0.03em;
+    letter-spacing: var(--letter-spacing);
     font-family: Roboto, sans-serif;
     font-style: normal;
+    font-weight: 700;
 }
 /* убираем все точки при списках */
 ul{
@@ -170,21 +172,29 @@ line-height: 1.18;
     color: var(--secondary-text-color);
 
 }
-
-/* .nav-address{
-    color:var(--color-text-footer);
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71; */
-}
-.map-link{
+.map-link {
     color: var(--secondary-text-color);
     font-weight: 400;
     font-size: 14px;
-    line-height: 1.71;
+    line-height: 1.7;
+    font-style: normal;
+}
+.map-link:hover,
+.map-link:focus{
+    color: var(--focus-text-color);
 }
 
-.nav-address:hover,
-.nav-address:focus{
+  .footer-contacts-link { 
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71; 
+}
+
+.footer-contacts-link:hover,
+.footer-contacts-link:focus {
     color: var(--focus-text-color);
+
+
+
 
