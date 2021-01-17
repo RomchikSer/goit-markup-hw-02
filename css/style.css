@@ -10,7 +10,7 @@ body{
     background: #E5E5E5;
     color: var(--web-text-color);
     letter-spacing: 0.03em;
-    font-family: Roboto, raleway, oleo script, sans-serif;
+    font-family: Roboto, sans-serif;
 }
 /* стилизаця лого */
 .logo{
@@ -86,7 +86,8 @@ ul{
     line-height: 1.7;
 }
 /* work */
-.work .work-title{
+.work .title
+.team .title{
     color: var(--web-text-color);
     font-weight: 700;
     font-size: 36px;
@@ -94,3 +95,15 @@ ul{
     text-align: center;
 }
 /* team */
+.team-name{
+color: var(--web-text-color);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+}
+.team-work{
+    color: var(--tel-mail-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+}
