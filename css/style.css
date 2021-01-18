@@ -121,11 +121,11 @@ button {
     background: var(--color-hero-button);
 }
 /* особености */
-.uniqum .uniqum-title {
+.uniqum-title {
     color: var(--web-text-color);
-    font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
+    text-transform: uppercase;
 }
 .uniqum-list {
     color: var(--tel-mail-text-color);
@@ -134,27 +134,41 @@ button {
     line-height: 1.7;
 }
 /* work */
-.work .title
-.team .title {
+.work-title{
     color: var(--web-text-color);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
+    letter-spacing: var(--letter-spacing);
 }
 /* team */
+.team {
+    background-color: var(--secondary-background-color);
+  }
+.team-title{
+    color: var(--web-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: var(--letter-spacing);
+}
 .team-name {
 color: var(--web-text-color);
 font-weight: 500;
 font-size: 16px;
-line-height: 1.18;
+line-height: 1.19;
+text-align: center;
 }
 .team-work {
     color: var(--tel-mail-text-color);
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.18;
+    line-height: 1.17;
+    text-align: center;
 }
+
 /* main */
 .main-bt {
     background: var(--secondary-background-color);
